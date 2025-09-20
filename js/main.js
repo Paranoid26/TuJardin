@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Array por si quisieramos añadir más flores
     // Recuerda comentar el css de flower si lo usas
     const flowerTypes = [
-        '/assets/img/flor.png',
-        '/assets/img/girasol.png',
-        '/assets/img/rosa.png'
+        '../assets/img/flor.png',
+        '../assets/img/girasol.png',
+        '../assets/img/rosa.png'
     ];
     //Definimos un punto para preparar el ramo
     const BOUQUET_CENTER_X = 320;
@@ -775,32 +775,32 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "The Lakes",
             artist: "Taylor Swift",
-            src: "/assets/audio/TheLakes.mp3",
-            image: "/assets/img/Folklore.webp"
+            src: "../assets/audio/TheLakes.mp3",
+            image: "../assets/img/Folklore.webp"
         },
         {
             title: "Daylight",
             artist: "Taylor Swift",
-            src: "/assets/audio/Daylight.mp3",
-            image: "/assets/img/Lover.jpg"
+            src: "../assets/audio/Daylight.mp3",
+            image: "../assets/img/Lover.jpg"
         },
         {
             title: "Formidable",
             artist: "Twenty One Pilots",
-            src: "/assets/audio/Formidable.mp3",
-            image: "/assets/img/SAI.jpg"
+            src: "../assets/audio/Formidable.mp3",
+            image: "../assets/img/SAI.jpg"
         },
         {
             title: "Robot Voices",
             artist: "Twenty One Pilots",
-            src: "/assets/audio/RobotVoices.mp3",
-            image: "/assets/img/Breach.jpg"
+            src: "../assets/audio/RobotVoices.mp3",
+            image: "../assets/img/Breach.jpg"
         },
         {
             title: "Flores Amarillas",
             artist: "Floricienta",
-            src: "/assets/audio/FloresAmarillas.mp3",
-            image: "/assets/img/Floricienta.webp"
+            src: "../assets/audio/FloresAmarillas.mp3",
+            image: "../assets/img/Floricienta.webp"
         }
     ];
 
