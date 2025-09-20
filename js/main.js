@@ -777,6 +777,7 @@ document.addEventListener("DOMContentLoaded", () => {
             artist: "Taylor Swift",
             src: "assets/audio/TheLakes.mp3",
             image: "assets/img/Folklore.webp"
+
         },
         {
             title: "Daylight",
@@ -789,6 +790,7 @@ document.addEventListener("DOMContentLoaded", () => {
             artist: "Twenty One Pilots",
             src: "assets/audio/Formidable.mp3",
             image: "assets/img/SAI.jpg"
+
         },
         {
             title: "Robot Voices",
