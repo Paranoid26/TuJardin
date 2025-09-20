@@ -247,7 +247,7 @@ body {
 .flower {
     width: 100px;
     height: 100px;
-    background: url('/assets/img/flor.png') center/contain no-repeat;
+    background: url('../assets/img/flor.png') center/contain no-repeat;
     pointer-events: auto;
     z-index: 2;
     will-change: transform, opacity;
@@ -261,7 +261,7 @@ body {
 
 /* Estilo variante viento */
 .scene-wind .wind-bg {
-    background: url('/assets/img/howl.jpg') center/cover no-repeat;
+    background: url('../assets/img/howl.jpg') center/cover no-repeat;
     /* background: linear-gradient(180deg, #bfe9ff, #e8f8ff); */
     height: 420px;
     border-radius: 12px;
@@ -283,7 +283,7 @@ body {
 .basket {
     width: 84px;
     height: 64px;
-    background: url('/assets/img/cesta.png') center/contain no-repeat;
+    background: url('../assets/img/cesta.png') center/contain no-repeat;
     position: fixed;
     z-index: 80;
     pointer-events: none;
@@ -293,7 +293,7 @@ body {
 .petal {
     width: 45px;
     height: 45px;
-    background: url('/assets/img/petal.png') center/contain no-repeat;
+    background: url('../assets/img/petal.png') center/contain no-repeat;
     position: fixed;
     z-index: 1000;
     pointer-events: none;
@@ -347,19 +347,19 @@ body {
 }
 
 .placed-decor.decor-paper {
-    background: url(/assets/img/paper.png) center/contain no-repeat;
+    background: url(../assets/img/paper.png) center/contain no-repeat;
     width: 500px;
     height: 150px;
 }
 
 .placed-decor.decor-ribbon {
-    background: url(/assets/img/ribbon.png) center/contain no-repeat;
+    background: url(../assets/img/ribbon.png) center/contain no-repeat;
     width: 200px;
     height: 20px;
 }
 
 .placed-decor.decor-twigs {
-    background: url(/assets/img/twigs.png) center/contain no-repeat;
+    background: url(../assets/img/twigs.png) center/contain no-repeat;
     width: 150px;
     height: 100px;
 }
@@ -376,7 +376,7 @@ body {
 .workshop-flower {
     width: 44px;
     height: 44px;
-    background: url('/assets/img/flor.png') center/contain no-repeat;
+    background: url('../assets/img/flor.png') center/contain no-repeat;
     border-radius: 6px;
     cursor: grab;
 }
@@ -384,7 +384,7 @@ body {
 .bouquet-area {
     flex: 1;
     margin: 12px;
-    background: url('/assets/img/tabletop1.jpeg') center/cover no-repeat;
+    background: url('../assets/img/tabletop1.jpeg') center/cover no-repeat;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     position: relative;
@@ -404,7 +404,7 @@ body {
 .placed-flower {
     width: 48px;
     height: 48px;
-    background: url('/assets/img/flor.png') center/contain no-repeat;
+    background: url('../assets/img/flor.png') center/contain no-repeat;
     border-radius: 6px;
     /* box-shadow: 0 6px 12px rgba(0,0,0,0.08); */
 }
@@ -455,7 +455,7 @@ body {
 
 /* Pantalla final */
 .final-screen {
-    background: url('/assets/img/Javiera.png') center/contain no-repeat;
+    background: url('../assets/img/Javiera.png') center/contain no-repeat;
     position: relative;
     height: 100vh;
     color: #333;
